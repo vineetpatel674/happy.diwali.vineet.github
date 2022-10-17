@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.deepak-img {
+    height: 55px;
+    border-radius: 242px;
+
+}
+.img-div{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-image: url("images/backimgdeepak.jpg");
+    position: sticky;
+}
+
+.img-fluid {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-img {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 6%;
+    font-family: none;
+    font-size: 1rem;
+    transition: 2s;
+    color: white;
+}
+
+.text-img:hover {
+    position: absolute;
+    transition: 2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 6%;
+    font-family: none;
+    font-size: 10rem;
+    transition: 1s;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 10px 0 #ccc, 0 11px 0 #ccc, 0 12px 0 #ccc, 0 20px 30px rgb(0 0 0 / 50%);
+}
+
+.audios {
+    text-align: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.gif {
+    background: url("images/patakha-1.gif");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.imgs{
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+.imgs img{
+    text-align: center;
+    
+    border-radius: 50px;
+}
+.deepak{
+    height: 400px;
+}
+.deep{
+    height: 100px;
+    margin-top: 273px;
+
+}
+.diwali-text{
+    color: rgb(219, 139, 35);
+    font-family: 'Baloo 2', cursive;
+    font-size: 56px;
+    margin-top: 70px;
+}
+.patakha-3{
+    background: rgba(0,0,0,0.7) url("images/patakha-3.gif");
+}
+.patakha{
+    height: 500px;
+    width: 500px;
+    margin: 40px 0px 16px 87px;
+    border-radius: 50px;
+}
+.sweet{
+    height: 300px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 75px 0px 0px 81px;
+}
+.footer{
+    font-family: 'Baloo 2', cursive;
+    background: rgba(0,0,0,0.7) url("images/haap.gif");
+
+}
+.footer h1{
+    font-size: 38px;
+}
+@media only screen and (max-width:1289px){
+    .text-img{
+        top: 30%;
+
+    }
+    .text-img:hover{
+        top: 50px;
+        font-size: 7rem;
+
+    }
+    .deep{
+        height: 50px;
+        margin-top: 80px;
+    }
+    .deepak{
+        height: 100px;
+
+    }
+    .patakha-3{
+        flex-direction: column;
+        margin: 0;
+    }
+    .sweet{
+        margin: 10px 0px 10px 10px;
+    }
+    .patakha{
+        height: 350px;
+        width: 350px;
+        margin: 10px 0px 10px 10px;
+
+    }
+    .music{
+        flex-direction: column;
+    }
+}
